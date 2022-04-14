@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  display: block;
+  font-family: "Karma", serif;
+}
+
+div {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.top {
+  height: 45px;
+  padding-top: 10px;
+  position: fixed;
+  background-color: #fff;
+  font-size: 24px;
+  line-height: 45px;
+  width: 100%;
+  display: block;
+}
+
+.buttonline {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.buttonline .left {
+  padding-left: 30px;
+}
+
+.buttonline .right {
+  padding-right: 30px;
+}
+#food img {
+  width: 300px;
+  padding: 10px;
+}
+.quarter {
+  width: 25%;
+}
+
+.page {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px;
+}
+
+#food h3 {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+.bar2 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  display: inline;
+  text-align: center;
+  width: 1564px;
+  font-size: 20px;
+}
+
+.button2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.button2:hover {
+  color: #fff;
+  background-color: black;
+}
+
+.button4 {
+  color: #fff;
+  background-color: black;
+}
+
+.aboutpage {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  padding: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  font-style: bold;
+  padding: 20px;
+}
+
+#about h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h6 {
+  font-style: italic;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 32px;
+  text-align: left;
+}
+
+.footer2 {
+  width: 30%;
+}
+.footer3 {
+  width: 30%;
+}
+
+h3 {
+  text-align: left;
+}
+
+.footer p {
+  text-align: left;
+}
+
+.footer2 img {
+  width: 60px;
+}
+
+li {
+  display: list-item;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+ul {
+  padding: 15px;
+}
+
+li:hover {
+  background-color: #eee;
+}
+
+.tag {
+  color: white;
+  background-color: gray;
+}
+
+.tag1 {
+  color: #fff;
+  background-color: #000;
+}

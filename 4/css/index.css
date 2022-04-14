@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #f8e6e6;
+}
+
+div {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+#header .img1 {
+  width: 100%;
+  filter: grayscale(50%);
+}
+
+#header .text {
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  letter-spacing: 4px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+  margin-bottom: 10px 0;
+}
+
+h2 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.bar .bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  opacity: 0.75;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.button {
+  height: 20px;
+}
+
+.blackk:hover {
+  background-color: black;
+  color: white;
+}
+.bar .bottom .button:hover {
+  background-color: #eee;
+}
+
+.content .img2 {
+  width: 1000px;
+  border-radius: 5px;
+  filter: grayscale(50%);
+  padding-top: 20px;
+}
+.container h1 {
+  color: rgb(146, 146, 146);
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.container {
+  text-align: center;
+  padding-left: 210px;
+  padding-right: 210px;
+  line-height: 2;
+}
+
+.content p {
+  padding-top: 80px;
+  font-style: italic;
+  text-align: left;
+}
+
+.content .button2 {
+  background-color: black;
+  color: white;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#flower {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.img3 {
+  width: 100%;
+}
+
+#flower .text {
+  position: absolute;
+  top: 310%;
+  left: 33%;
+  letter-spacing: 4px;
+  text-align: center;
+  color: white;
+}
+
+#content {
+  padding-top: 20px;
+}
+
+.row {
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.half h2 {
+  margin: 0;
+}
+
+.half p {
+  padding: 0;
+  text-align: center;
+}
+
+.rsvp {
+  background-color: #ffdddd;
+  text-align: center;
+  padding: 100px;
+}
+.rsvp h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+}
+
+.rsvp .large {
+  letter-spacing: 4px;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.rsvp .button3 {
+  background-color: #f44336;
+  color: white;
+  opacity: 0.6;
+  border-radius: 4px;
+  padding: 8px 60px;
+  width: 100px;
+  font-size: 30px;
+  position: absolute;
+  left: 42%;
+}
+
+#footer {
+  color: white;
+  background-color: black;
+  line-height: 85px;
+  text-align: center;
+}
+
+#footer a {
+  color: white;
+  background-color: black;
+  line-height: 85px;
+  text-align: center;
+}
