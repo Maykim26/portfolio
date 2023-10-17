@@ -1,4 +1,4 @@
-// class Notice {
+/*// class Notice {
 
 //     static title = '풀스택 자바(JAVA)웹개발자(프론트엔드&백엔드)';
 //     static left = '20px';
@@ -80,3 +80,4 @@
 //         document.querySelector("#pdfDocumentContainer").remove();
 //     }
 // }
+*/
